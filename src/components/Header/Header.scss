@@ -1,0 +1,20 @@
+.header_link{
+    display: flex;
+    gap: 5px;
+
+    a{
+        padding: .5rem 1rem;
+        background-color: black;
+        border-radius: 5px;
+        color: #fff;
+        &:hover{
+            background-color: rgb(36, 92, 92);
+            color: #fff;
+
+        }
+    }
+    .active {
+        background-color: rgb(36, 92, 92);
+        color: #fff;
+    }
+}

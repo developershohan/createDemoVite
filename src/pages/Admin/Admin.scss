@@ -1,0 +1,25 @@
+.admin_container {
+  display: flex;
+
+  .admin_left_con {
+    .admin_sub_link {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      a{
+        padding: .5rem 1rem;
+        background-color: black;
+        border-radius: 5px;
+        color: #fff;
+        &:hover{
+            background-color: rgb(36, 92, 92);
+            color: #fff;
+
+        }
+    }
+    }
+  }
+  .admin_right_con{
+    background-color: azure;
+  }
+}
