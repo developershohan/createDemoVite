@@ -1,7 +1,10 @@
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <div>Team
+
+
+    </div>
   )
 }
 
