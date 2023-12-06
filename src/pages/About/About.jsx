@@ -1,11 +1,12 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import "./About.scss";
+import msgContext from "../../context/MsgContext";
 const About = () => {
 
 const [count, setCount] = useState(0)
-const [msg, setMsg] = useState("hi")
 
 
+const {msg, setMsg} = useContext(msgContext)
 
 
 	return (
